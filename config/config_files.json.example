@@ -1,0 +1,17 @@
+{
+  "app": {
+    "addr": ":8000"
+  },
+  "db": {
+    "dialect": "postgresql",
+    "datasource": "host=db user=postgres password=postgres dbname=showcase port=5432 sslmode=disable TimeZone=Asia/Jakarta",
+    "max_idle_conns": 2,
+    "max_open_conns": 16
+  },
+  "redis": {
+    "address": "127.0.0.1:6379"
+  },
+  "rabbitmq": {
+    "url": "amqp://guest:guest@rabbitmq"
+  }
+}
